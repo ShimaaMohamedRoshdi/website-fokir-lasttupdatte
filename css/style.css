@@ -1,0 +1,281 @@
+
+
+.Navvv{
+    color: red;
+    font-weight: bold;
+}
+.linkk{
+    color: white;
+}
+.linkk:hover{
+    color: red;
+}
+
+.home{
+    background-image: url("../images/slider-01\ \(1\).jpg");
+    height: 100vh;
+    background-position: center;
+    color: white;
+    padding: 1px;
+}
+.txt {
+    
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      font-size: 2rem;
+}
+.alex{
+    color: red;
+    font-weight: 700;
+}
+
+
+h3::after {
+    content: "|";
+    position: absolute;
+   
+    top: 130px;
+     left: 50%; 
+     transform: translate(-50%, -50%);
+    font-size: 2rem;
+    animation: alternate infinite ayhaga 5s;
+    color: white;
+    
+}
+
+@keyframes ayhaga {
+    0% {
+        content: "S|";
+    }
+
+    2% {
+        content: "Si";
+    }
+
+    4% {
+        content: "Sin|";
+    }
+
+    8% {
+        content: "Sino";
+    }
+
+    10% {
+        content: "Sinor|";
+    }
+
+    12% {
+        content: "SinorF";
+    }
+
+    14% {
+        content: "SinorFr|";
+    }
+
+    16% {
+        content: "SinorFro";
+    }
+
+    18% {
+        content: "SinorFron|";
+    }
+
+    20% {
+        content: "SinorFront";
+    }
+
+    22% {
+        content: "SinorFrontE|";
+    }
+
+    24% {
+        content: "SinorFrontEn";
+    }
+
+    100% {
+        content: "SinorFrontEnd|";
+    }
+
+
+}
+
+/* page2 */
+
+.parent_image {
+    border: 9px solid#555555;
+    border-radius: 8px;
+     width: 70%; 
+}
+
+.child_image{
+    position: relative;
+    top: 23px;
+    left: 10%;
+}
+.border_image{
+    border-radius: 9px;
+}
+
+.Navbar_fokir{
+    color: red;
+}
+h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+
+.text_muted{
+    color: #6c757d!important ;
+    font-size: 1.2rem;
+    font-style: italic; 
+}
+hr{
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+
+/* pageno3 */
+
+.our_services{
+    background-color: #F1F1F1;
+    /* height: 80vh; */
+}
+.lines  {
+    font-size: 3rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.lines h2::before{
+    content: " ";
+    width: 80px;
+    height: 15px;
+    border: 2px solid red;
+    border-left: transparent;
+    border-right: transparent;
+    /* background-color: transparent; */
+    position: absolute;
+    top: 64px;
+    left: 48%;
+}
+.lines h2::after{
+    content: " ";
+    width: 200px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 71px;
+    left: 43%;
+}
+
+
+
+.icon_absolute{
+    color: red;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+.icon_absolute:hover{
+    rotate: 360deg;
+    transition: 1s all;
+    transform: scale(1.5,1.5);
+  
+}
+
+.row :hover{
+    background-color: white;
+
+}
+.btn1:hover{
+    background-color: #333333;
+}
+
+
+
+/* pageno3 */
+.kkk{
+  
+    color: black;
+}
+.nav-link:hover{
+    color: red;
+}
+
+
+/* pageno4 */
+.backcolor_carousel{
+background-color:  #F1F1F1;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    height: 10px !important;
+    width: 10px !important;
+ 
+    border-radius: 150px!important;
+  
+    border: 2px solid red;
+}
+.carousel-indicators [data-bs-target].active {
+    height: 12px !important;
+    width: 30px !important;
+   
+    background-color: red;
+   
+}
+
+/* pageno5 */
+
+.Our_Blog{
+    background-color: #F1F1F1;
+    margin-top: 5rem;
+    
+}
+
+.class:hover{
+    color: red;
+}
+
+/* last page */
+
+.Button_lapel {
+ background-color: red;
+ border-radius:10px ;
+ transition: 0.5s all;
+ -webkit-border-radius:10px ;
+ -moz-border-radius:10px ;
+ -ms-border-radius:10px ;
+ -o-border-radius:10px ;
+}
+
+/* footer */
+.color-footer{
+   height: 150px;
+   color: white;
+   text-align: center;
+    background-color: #333333;
+   padding-top: 20px;
+}
+
+.youtube{
+color: red;
+}
+.facebook{
+    color: blue;
+}
+.linkedin{
+    color: blue;
+}
+.twitter{
+    color: white;
+}
+
+
